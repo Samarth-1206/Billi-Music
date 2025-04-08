@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Rocky9852/anjali_private",
+    "https://github.com/saregamamusic/Billi-Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/Music_World_Update")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Music_World_Support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/btw_ghouls")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ghouls_here")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,10 +81,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4df86a4e5c3bd48972f55-0d056340bc5ac4c6f6.jpg"
+    "START_IMG_URL", "https://graph.org/file/c1403435092ac78a9b00c-e2308add62f457f567.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/owh3j7.jpg"
+    "PING_IMG_URL", "https://graph.org/file/91e3a6be47104501699cc-f00851488c31dd7f5f.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/6tled7.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg"
