@@ -25,6 +25,7 @@ from RessoMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
+
 @app.on_message(
     filters.command(
         [
@@ -36,7 +37,8 @@ from config import BANNED_USERS, lyrical
             "vplayforce",
             "cplayforce",
             "cvplayforce",
-        ]
+        ],
+        prefixes=["/", "!", "."],
     )
     & filters.group
     & ~BANNED_USERS
